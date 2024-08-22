@@ -1,0 +1,10 @@
+tensorflow > 1.7.0
+keras > 2.1.6
+numpy
+matplotlib
+pydot
+graphviz
+scipy
+scikit-image
+seaborn
+opencv-python
