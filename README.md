@@ -117,21 +117,22 @@ in the root folder of this repository.
 
 Project Organization on quality filtering from a single source
 ------------
- ├── LICENSE
- ├── README.md                      <- The top-level README for developers using this project.
- ├── images                         <- Figures for the README   
- ├── filtering-single-source        <- Quality filtering from single source.
-    ├── CMakeLists.txt              <- Build Code in C++ 
-    ├── benchmark_results           <- Results on minutia selection modes and hashing modes
-    ├── libs                        <- Submodules
-        ├── FingerprintImageQuality <- Patched [MiDeCon] implementation      
-        ├── pybind11                <- Create a Python interface for the C++ library
-    ├── plots                       <- result plots
-    ├── python_scripts              <- Functions for conversion
-       ├── ...                      <- conversion
-       ├── benchmark_delaunay_index <- Mapping configurations
-    ├── src                         <- Quality Filtering System
 
+
+    ├── LICENSE
+    ├── README.md                 <- The top-level README for developers using this project.
+    ├── images                    <- Figures for the README   
+    ├── filtering-single-source   <- Quality filtering from single source.
+        ├── CMakeLists.txt        <- Build Code in C++
+        ├── benchmark_results     <- Results on minutia selection modes and hashing modes
+        ├── libs                  <- Submodules
+            ├── FingerprintImageQuality <- Patched [MiDeCon] implementation 
+            ├── pybind11                <- Create a Python interface for the C++ library
+        ├── plots                       <- Results plots
+        ├── python_scripts              <- Functions for conversion
+           ├── ...                      <- Conversion
+           ├── benchmark_delaunay_index <- Mapping configurations
+        ├── src                         <-  Quality Filtering System
 
 
 ### Experiments
