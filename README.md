@@ -78,17 +78,18 @@ If you use this code in your research, please cite the following papers:
 
 Project Organization on quality filtering from different sources 
 ------------
- ├── LICENSE
- ├── README.md                      <- The top-level README for developers using this project.
- ├── images                         <- Figures for the README   
- ├── filtering-different-sources    <- Quality filtering from different sources.
-    ├── enrolment                   <- Prepare system for filtering
-        ├── ...                     <- Define type of Quality and source
-        ├── IrisQualitySystem       <- Quality defined on Iris-based source
-    ├── quality_info                <- Files with quality numerical information       
-    ├── statistics_face             <- Define the main of the quality filtering on face
-    ├── statistics_fingerDP         <- Define the main of the quality filtering on fingerprint
-    ├── statistics_Iris             <- Define the main of the quality filtering on iris
+
+    ├── LICENSE
+    ├── README.md                 <- The top-level README for developers using this project.
+    ├── images                    <- Figures for the README   
+    ├── filtering-different-sources <- Quality filtering from different sources.
+        ├── enrolment               <- Prepare system for filtering
+            ├── ...                 <- Define type of Quality and source
+            ├── IrisQualitySystem   <- Quality defined on Iris-based source
+        ├── quality_info            <- Files with quality numerical information  
+        ├── statistics_face         <- Define the main of the quality filtering on face
+        ├── statistics_fingerDP     <- Define the main of the quality filtering on fingerprint
+        ├── statistics_Iris         <- Define the main of the quality filtering on iris
 
 # Description of parameters
 
